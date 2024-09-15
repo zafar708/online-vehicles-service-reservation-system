@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,html{
+	overflow-x: hidden !important ;
+}
+.header-bg{
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("/frontend/assets/images/header-img.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 90vh;
+	width: 100vw;
+}
+a{
+	text-decoration: none;
+}
+.search-margin{
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+.user-dashboard li{
+	list-style: none;
+}
+.bottom-margin{
+ 	margin-bottom: 92px;
+ }
+ .rating-button{
+ 	transition-duration: 0.4s;
+ 	background-color: white;
+ }
+ .rating-button:hover {
+  background-color: blue; 
+  color: white;
+}
